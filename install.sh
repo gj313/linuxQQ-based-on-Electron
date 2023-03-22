@@ -38,6 +38,6 @@ sudo install -Dm644 "/opt/QQ/LICENSE.electron.txt" -t "/usr/share/licenses/${pkg
 sudo install -Dm644 "/opt/QQ/LICENSES.chromium.html" -t "/usr/share/licenses/${pkgname}/"
 
 # Temporary Solution: Remove libvips which comes from package "linuxqq" itself
-sudo rm -f "/opt/QQ/resources/app/sharp-lib/libvips-cpp.so.42"
+# sudo rm -f "/opt/QQ/resources/app/sharp-lib/libvips-cpp.so.42"
 
 rm -rf ${pkgdir}
